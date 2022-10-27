@@ -1,0 +1,29 @@
+GET http://localhost:3000/subscribers 
+
+###
+
+GET http://localhost:3000/subscribers/635ac0fa37b5958a3f149357
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Umur",
+    "subscribedToChannel": "AmazingChanel"
+}
+
+###
+
+DELETE  http://localhost:3000/subscribers/635ac0fa37b5958a3f149357
+
+###
+
+PATCH http://localhost:3000/subscribers/635ac517f9844640c0352fb4
+Content-Type: application/json
+
+{
+    "name": "Kerim",
+    "subscribedToChannel": "AmazingChanel"
+}
